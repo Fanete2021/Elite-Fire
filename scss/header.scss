@@ -1,0 +1,62 @@
+@import 'variables';
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6d6d6d;
+    margin: 0 $indentContent;
+    height: $heightHeader;
+    mix-blend-mode: difference;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+
+    .company__title {
+        font-family: 'Scania Sans CY Headline';
+        color: white;
+        font-size: 20px;
+        letter-spacing: 0.105em;
+    }
+
+    .company__discribe {
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        margin-left: 40px;
+        width: 100px;
+        color: #6d6d6d;
+        line-height: 18px;
+    }
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        margin-right: 40px;
+        color: #949494;
+    }
+
+    .selected {
+        color: #ffcf7a;
+    }
+
+    .pages__square {
+        display: flex;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background: linear-gradient(to top right, rgb(254, 166, 105), #eccf94);
+
+        img {
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,220 @@
+.effects {
+    position: relative;
+    user-select: none;
+
+    * {
+        position: absolute;
+    }
+}
+
+//generalization blur-black
+.effects__blur-black {
+    background: #000000;
+    width: 875px;
+    height: 930px;
+    filter: blur(250px);
+    border-radius: 300px;
+    transform: rotate(45deg);
+}
+
+.rectangle-1 {
+    left: -195px;
+    top: 155px;
+}
+
+.rectangle-2 {
+    left: 1160px;
+    top: -175px;
+}
+
+.rectangle-4 {
+    width: 605.91px;
+    height: 192.46px;
+    left: 585px;
+    top: 530px;
+
+    filter: blur(100px);
+    border-radius: 500px;
+    transform: rotate(157.75deg);
+}
+
+.rectangle-15 {
+    width: 285px;
+    height: 690px;
+    left: -150px;
+    top: 1700px;
+}
+
+.rectangle-16 {
+    width: 570px;
+    height: 284px;
+    left: 123px;
+    top: 3262px;
+
+    filter: blur(100px);
+    transform: rotate(0);
+}
+
+.rectangle-17 {
+    width: 1038px;
+    height: 236px;
+    left: 210px;
+    top: 4450px;
+
+    background: rgba(18, 18, 18, 0.7);
+    filter: blur(75px);
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    transform: rotate(0);
+}
+
+//generalization blur-light
+.effects__blur-light {
+    border-radius: 300px;
+    filter: blur(75px);
+}
+
+.rectangle-3 {
+    left: 933px;
+    top: 290px;
+    width: 205px;
+    height: 90px;
+
+    background: #ffcf7a;
+    transform: rotate(161.87deg);
+    border-radius: 500px;
+    filter: blur(50px);
+}
+
+.rectangle-5 {
+    width: 156px;
+    height: 96px;
+    left: 446px;
+    top: 1273px;
+
+    background: rgba(255, 155, 82, 0.71);
+    filter: blur(50px);
+}
+
+.rectangle-6 {
+    width: 156px;
+    height: 96px;
+    left: 720px;
+    top: 1262px;
+
+    background: rgba(238, 214, 214, 0.22);
+}
+
+.rectangle-7 {
+    width: 214px;
+    height: 132px;
+    left: 649px;
+    top: 1244px;
+
+    background: rgba(255, 207, 122, 0.72);
+}
+
+.rectangle-8 {
+    width: 354.97px;
+    height: 349.26px;
+    left: 550px;
+    top: 1000px;
+
+    background: rgba(245, 157, 93, 0.45);
+    filter: blur(125px);
+    transform: rotate(135deg);
+}
+
+.rectangle-9 {
+    width: 508px;
+    height: 499.83px;
+    left: 220px;
+    top: 1145px;
+
+    background: rgba(255, 209, 128, 0.23);
+    filter: blur(125px);
+    transform: rotate(135deg);
+}
+
+.rectangle-10 {
+    width: 508px;
+    height: 339px;
+    left: 479px;
+    top: 1074px;
+
+    background: rgba(255, 209, 128, 0.23);
+}
+
+.rectangle-11 {
+    width: 826px;
+    height: 551px;
+    left: 320px;
+    top: 939px;
+
+    background: #392924;
+    filter: blur(150px);
+}
+
+.rectangle-12 {
+    width: 163.39px;
+    height: 198.72px;
+    left: 1058px;
+    top: 1905px;
+
+    background: rgba(255, 207, 122, 0.72);
+    transform: matrix(-0.94, 0.35, 0.35, 0.94, 0, 0);
+}
+
+.rectangle-13 {
+    width: 269.65px;
+    height: 385.66px;
+    left: 882px;
+    top: 1805px;
+
+    background: rgba(201, 115, 53, 0.45);
+    transform: matrix(0.31, -0.95, -0.95, -0.31, 0, 0);
+}
+
+.rectangle-14 {
+    width: 335.98px;
+    height: 420.04px;
+    left: 1011px;
+    top: 1727px;
+
+    background: rgba(175, 152, 112, 0.34);
+    transform: matrix(0.92, 0.39, 0.39, -0.92, 0, 0);
+}
+
+.rectangle-18 {
+    left: 601px;
+    top: 4608px;
+    width: 141px;
+    height: 70px;
+
+    background: #ffcf7a;
+    filter: blur(95px);
+}
+
+//generalization blur-light
+
+.circle {
+    border: 1px solid #ffcf7a;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.circle-1 {
+    width: 98px;
+    height: 98px;
+    left: 860px;
+    top: 2045px;
+    filter: drop-shadow(0px 4px 23px #ffe2a4);
+}
+
+.circle-2 {
+    width: 194px;
+    height: 194px;
+    left: 933px;
+    top: 2090px;
+    border-inline-width: 2px;
+    filter: drop-shadow(0px 8px 35px #ffe2a4);
+}

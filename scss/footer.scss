@@ -1,0 +1,118 @@
+@import 'variables';
+
+footer {
+    margin-top: 100px;
+    height: 593px;
+    background: #121212;
+}
+
+.connection {
+    padding: 72px $indentContent 0;
+
+    .connection__title {
+        font-weight: 250;
+        font-size: 40px;
+        line-height: 55px;
+
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+
+        background: linear-gradient(231.91deg, #ffffff 37.36%, rgba(255, 255, 255, 0) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .connection__contacts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 35px;
+
+        .contacts__item {
+            flex-basis: 25%;
+
+            .item__title {
+                margin-top: 40px;
+                font-size: 14px;
+                line-height: 36px;
+
+                color: #949494;
+            }
+
+            .item__value {
+                font-size: 22px;
+                line-height: 36px;
+
+                color: #ffffff;
+            }
+
+            .email {
+                color: #ffcf7a;
+            }
+        }
+
+        .phone,
+        .btn {
+            flex-basis: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            .item__value,
+            .item__title {
+                margin-left: 40%;
+            }
+        }
+
+        .phone .item__value {
+            font-weight: 250;
+            font-size: 36px;
+            line-height: 33px;
+        }
+
+        .btn .item__value {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 300px;
+            height: 60px;
+            border: 1px solid #ceb787;
+            border-radius: 2px;
+        }
+    }
+}
+
+.separation {
+    margin-top: 90px;
+    border: 1px solid #232323;
+}
+
+.rights {
+    display: flex;
+    margin: 35px $indentContent 0;
+
+    letter-spacing: 0.05em;
+    color: #6d6d6d;
+
+    .rights__company {
+        font-family: 'Scania Sans CY Headline';
+
+        letter-spacing: 0.105em;
+
+        color: #ffffff;
+    }
+
+    .rights__years {
+        margin-left: 110px;
+    }
+
+    .rights__owner {
+        margin-left: 47px;
+    }
+
+    .rights__agreement {
+        position: absolute;
+        right: $indentContent;
+    }
+}

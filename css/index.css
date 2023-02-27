@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Scania Sans CY Headline";
+  src: url(../fonts/ScaniaSansCYHeadline-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Scania Sans CY";
+  src: url(../fonts/ScaniaSansCY-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lab Grotesque";
+  src: url(../fonts/LabGrotesque-Thin.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(29, 29, 28);
+  font-family: "Lab Grotesque";
+  overflow-x: hidden;
+}
+
+p {
+  margin: 0;
+}
+
+.line {
+  width: 31px;
+  height: 0px;
+  margin: 0 21px;
+  border: 1px solid #949494;
+}
+
+pre {
+  font-family: "Lab Grotesque";
+  font-style: normal;
+  white-space: pre-line;
+  margin: 0;
+}
